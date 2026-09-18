@@ -45,10 +45,12 @@
 4. עדכנו בעצמכם את `toString()` כך שיעמוד בדרישות ההתנהגות הבאות:
    - אם `timestamp` הוא `null`, החזירו טקסט בפורמט `sender: content`.
    - אם `timestamp` אינו `null`, עצבו אותו באמצעות `SimpleDateFormat` בתבנית `HH:mm` ועם `Locale.getDefault()`, והחזירו טקסט בפורמט `HH:mm | sender: content`.
+  
+   -  ```java
    -   // עיצוב התאריך לפורמט של שעות ודקות בלבד (למשל 14:30)
             SimpleDateFormat sdf = new SimpleDateFormat("HH:mm", Locale.getDefault());
             String timeString = sdf.format(timestamp);
-
+```
 אין לשנות את האוסף: גם הודעות ישנות וגם הודעות חדשות נשארות ב-`board`.
 
 ## כיצד `@ServerTimestamp` פועל
