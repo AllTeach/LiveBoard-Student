@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LiveBoard Student</string>
+    <string name="sender_hint">שם השולח</string>
+    <string name="message_hint">כתבו הודעה</string>
+    <string name="send">שליחה</string>
+    <string name="empty_fields_message">יש למלא שם והודעה</string>
+</resources>

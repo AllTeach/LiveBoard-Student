@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "588444793387",
+    "project_id": "fir-tutorial-dde7e",
+    "storage_bucket": "fir-tutorial-dde7e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588444793387:android:3fb8ea75dcb6ca1671c86e",
+        "android_client_info": {
+          "package_name": "com.example.firebasetutorial"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8taAE9Tc2Tiv1nnpHysp0k2N5fW6rVqI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588444793387:android:4bdf4758f21f4d0871c86e",
+        "android_client_info": {
+          "package_name": "com.shamir.liveboard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8taAE9Tc2Tiv1nnpHysp0k2N5fW6rVqI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
